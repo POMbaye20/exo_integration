@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body {
+    background: lightskyblue;
+    background: url('../img/fond.png');
+}
+
+#container {
+    width: 1000px;
+    height: 820px;
+    background: plum;
+    margin: 0 auto;
+}
+
+/* HEADER ET LOGO */
+
+#logo {
+    background: red;
+    width: 40%;
+    height: 150px;
+}
