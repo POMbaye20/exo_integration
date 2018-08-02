@@ -15,7 +15,29 @@ body {
 /* HEADER ET LOGO */
 
 #logo {
-    background: red;
+    /****** background: red; ******/
     width: 40%;
     height: 150px;
 }
+
+.boutique {
+    font-size: 3em;
+    display: inline;
+    margin-left: 20px;
+}
+
+.venteenligne {
+    margin-left: 50px;
+}
+
+/****** FIN HEADER ET LOGO ******/
+
+/* Besoin d'aide */
+
+#aide {
+    background: red;
+    width: 30%;
+    height: 150px;
+   float: right;
+}
+
