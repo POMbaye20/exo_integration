@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background: lightskyblue;
+    /* background: lightskyblue; */
     background: url('../img/fond.png');
 }
 
@@ -14,10 +14,15 @@ body {
 
 /* HEADER ET LOGO */
 
+header {
+    width: 100%;
+}
+
 #logo {
     /****** background: red; ******/
-    width: 40%;
+    width: 400px;
     height: 150px;
+   float: left;
 }
 
 .boutique {
@@ -35,9 +40,80 @@ body {
 /* Besoin d'aide */
 
 #aide {
-    background: red;
-    width: 30%;
+    
+    width: 300px;
     height: 150px;
-   float: right;
+   float: left;
+
 }
+
+.clear {
+    clear: both;
+}
+
+
+/* Compte */
+
+#compte {
+    position: relative;
+    text-align: center;     
+
+}
+
+.panier {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+/* Nav */
+
+nav {
+    background: lightskyblue;
+    margin: 0;
+    height: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 80px;
+   
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li .accueil {
+    background: pink;
+}
+
+/****** Modalités et  achats ******/
+
+#modalités {
+    height: 300px;
+    display: inline-block;
+}
+
+#achats {
+    width: 300px;
+    top: 10px;
+    float: left;
+}
+
+.descriptions {
+
+    width: 400px;
+    float: left;
+    margin-right: 30px;
+}
+
+.services {
+    float: right;
+}
+
+
+
 
