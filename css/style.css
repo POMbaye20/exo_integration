@@ -8,7 +8,7 @@ body {
 #container {
     width: 1000px;
     height: 820px;
-    background: plum;
+    /* background: plum; */
     margin: 0 auto;
 }
 
@@ -93,8 +93,10 @@ ul li .accueil {
 /****** Modalités et  achats ******/
 
 #modalités {
-    height: 300px;
+    height: 250px;
     display: inline-block;
+    padding-bottom:  10px;
+
 }
 
 #achats {
@@ -103,6 +105,8 @@ ul li .accueil {
     float: left;
 }
 
+
+
 .descriptions {
 
     width: 400px;
@@ -110,10 +114,49 @@ ul li .accueil {
     margin-right: 30px;
 }
 
+.bienvenue {
+    padding-bottom: 10px;
+}
+
 .services {
     float: right;
 }
 
+
+/************** Bon plan ***************/
+ .articles {
+     /* background: red; */
+    
+   
+ }
+
+ .coupdecoeur {
+     float: left;
+    margin-right: 46px;
+    box-shadow: 1px 0px 3px 2px #636262;
+    border-radius: 2em;    
+ }
+
+
+
+
+
+
+ .lorem {
+     width: 280px;
+   
+    
+}
+
+/* footer */
+
+footer {
+    background: cyan;
+    margin-right: 30px;
+    margin-top: 30px;
+    text-align: center;
+ 
+}
 
 
 
